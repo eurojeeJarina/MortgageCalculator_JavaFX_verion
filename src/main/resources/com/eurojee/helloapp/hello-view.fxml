@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.GridPane?>
+<GridPane alignment="CENTER"  xmlns:fx="http://javafx.com/fxml"
+          fx:controller="com.eurojee.helloapp.HelloController" hgap="20" vgap="10">
+    <padding>
+        <Insets bottom="10.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <Label fx:id="informationLabel" />
+    <Label fx:id="loanAmount" text="Loan Amount: " GridPane.columnIndex="0" GridPane.rowIndex="0" />
+    <TextField fx:id="loanAmountField" GridPane.columnIndex="1"  GridPane.rowIndex="0" />
+    <Label fx:id="interestRate" text="Interest Rate: " GridPane.columnIndex="0" GridPane.rowIndex="1" />
+    <TextField fx:id="interestRateField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+    <Label fx:id="termLoan" text="Loan Term: " GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+    <TextField fx:id="termLoanField" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+
+
+
+    <Button text="Rest Form" GridPane.columnIndex="0" GridPane.rowIndex="4" GridPane.columnSpan="2"/>
+    <Button text="Calculate Repayment" onAction="#onHelloButtonClick" GridPane.columnIndex="1"  GridPane.rowIndex="4" GridPane.columnSpan="2"/>
+</GridPane>

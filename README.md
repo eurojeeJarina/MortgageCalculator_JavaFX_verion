@@ -3,10 +3,10 @@
 
 ###### TABLE OF CONTENTS:
 
-1. [HOW TO GUIDE](https://github.com/eurojeeJarina/MortgageCalculator_JavaFX_verion/blob/master/README.md###-how-to)
-2. [ERROR HANDLING](https://github.com/eurojeeJarina/MortgageCalculator_JavaFX_verion/blob/master/README.md###-error-handling)
+1. [HOW TO GUIDE](https://github.com/eurojeeJarina/MortgageCalculator_JavaFX_verion/blob/master/README.md#-how-to)
+2. [ERROR HANDLING](https://github.com/eurojeeJarina/MortgageCalculator_JavaFX_verion/blob/master/README.md#-error-handling)
 
-### How To
+# How To
 
 1. Fill all blanks with necessary information (All fields must be numbers not letters)
   - **LOAN AMOUNT:** The exact amount borrowed from the bank.
@@ -24,7 +24,7 @@
 
 ![This is an image](https://github.com/eurojeeJarina/MortgageCalculator_JavaFX_verion/blob/master/Step%203.jpg)
 
-### Error Handling
+# Error Handling
 
 - If a field is blank, the app will display an error message **"Missing Fields."**
 

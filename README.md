@@ -3,8 +3,8 @@
 
 ###### TABLE OF CONTENTS:
 
-1. [HOW TO GUIDE](https://github.com/eurojeeJarina/MortgageCalculator_JavaFX_verion/blob/master/README.md#-how-to)
-2. [ERROR HANDLING](https://github.com/eurojeeJarina/MortgageCalculator_JavaFX_verion/blob/master/README.md#-error-handling)
+1. [HOW TO GUIDE](https://github.com/eurojeeJarina/MortgageCalculator_JavaFX_verion/blob/master/README.md#how-to)
+2. [ERROR HANDLING](https://github.com/eurojeeJarina/MortgageCalculator_JavaFX_verion/blob/master/README.md#error-handling)
 
 # How To
 

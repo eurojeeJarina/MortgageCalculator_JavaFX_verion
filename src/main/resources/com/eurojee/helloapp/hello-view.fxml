@@ -21,8 +21,12 @@
     <Label fx:id="termLoan" text="Loan Term: " GridPane.columnIndex="0" GridPane.rowIndex="2"/>
     <TextField fx:id="termLoanField" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
 
+    <Label fx:id="totalAmountLabel" text="TOTAL: " GridPane.columnIndex="0" GridPane.rowIndex="4" />
+    <Label fx:id="totalResultText" text="0 monthly" GridPane.columnIndex="1" GridPane.rowIndex="4"/>
 
 
-    <Button text="Rest Form" GridPane.columnIndex="0" GridPane.rowIndex="4" GridPane.columnSpan="2"/>
-    <Button text="Calculate Repayment" onAction="#onHelloButtonClick" GridPane.columnIndex="1"  GridPane.rowIndex="4" GridPane.columnSpan="2"/>
+
+    <Button text="Reset Form" onAction="#resetForm" GridPane.columnIndex="0" GridPane.rowIndex="5" GridPane.columnSpan="2"/>
+    <Button text="Calculate Repayment" onAction="#onHelloButtonClick" GridPane.columnIndex="1"  GridPane.rowIndex="5" GridPane.columnSpan="2"/>
+
 </GridPane>
